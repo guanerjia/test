@@ -18,7 +18,7 @@ public class Test {
             Class.forName(driverName);
             dbConn = DriverManager.getConnection(dbURL, userName, userPwd);
             System.out.println("Connection Successful!");
-
+            //add for git test
             Statement statement = dbConn.createStatement();
             String sql = "SELECT [id]" +
                     ",[name]" +
